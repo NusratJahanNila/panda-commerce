@@ -13,10 +13,13 @@
     background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
     color: #fff;
     padding: 14px 20px;
-    border: none;
-    
+    border: none;   
 }
-
+.section-title{
+    font-size: 36px;
+    font-weight: 600px;
+    color: #1F1F1F;
+}
 
 
 /* navbar Style */
@@ -65,6 +68,7 @@ nav{
     padding: 68px 46px;
     border-radius: 10px;
     margin-top: 50px;
+    margin-bottom: 64px;
 }
 .banner img{
     width: 402px;
@@ -83,4 +87,42 @@ nav{
     color: #FF136F;
     font-weight: 500px;
     font-size: 31px;
+}
+
+
+/* Categories style */
+.categories{
+    margin-top: 46px;
+}
+.categories-card-containers{
+    display: flex;
+    gap: 26px;
+    width: 100%;
+}
+.categories-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 46px;
+    gap: 76px;
+    border-radius: 10px;
+    flex: 1;
+}
+.categories-cards h3{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400px;
+}
+.categories-cards img{
+    height: 80px;
+    width: 90px;
+}
+.categories-cards:nth-child(1){
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+}
+.categories-cards:nth-child(2){
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+.categories-cards:nth-child(3){
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
 }
