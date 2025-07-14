@@ -15,6 +15,9 @@
     padding: 14px 20px;
     border: none;   
 }
+.btn-panda:hover{
+    box-shadow: 5px 5px 10px palevioletred;
+}
 .section-title{
     font-size: 36px;
     font-weight: 600px;
@@ -92,7 +95,7 @@ nav{
 
 /* Categories style */
 .categories{
-    margin-top: 46px;
+    margin: 46px auto;
 }
 .categories-card-containers{
     display: flex;
@@ -130,7 +133,6 @@ nav{
 /* productStyle */
 .product{
     background-color: #F4F4F4;
-    margin-top: 46px;
 }
 .product-heading{
     display: flex;
@@ -140,8 +142,8 @@ nav{
     color: #FF9D00;
     font-size: 20px;
 }
-.product-container{
-    margin-top: 98px;
+a:hover{
+    color: #000;
 }
 .product-card-container{
     display: flex;
@@ -149,11 +151,13 @@ nav{
     width: 100%;
     text-align: center;
     margin-top: 48px;
+    margin-bottom: 90px;
 }
 .product-card{
     background-color: #fff;
     border-radius: 10px;
     padding: 24px 12px ;
+    margin-bottom: 100px
 }
 .product-card h4{
     font-size: 24px;
@@ -171,3 +175,34 @@ nav{
     background: rgb(0, 0, 0);
     padding: 14px 20px;
 }
+.product-card button:hover{
+    box-shadow: 5px 5px 10px #1F1F1F
+}
+
+
+/* Contact style */
+.contact{
+    background-color: #FFF2F1;
+    text-align: center;
+    margin: 50px auto;
+    padding: 100px 260px;
+    border-radius: 10px;   
+}
+.contact h2{
+    color: #1F1F1F;
+    font-weight: bold;
+    font-size: 30px;
+}
+.contact p{
+    font-weight: 500px;
+    color: #707070;
+}
+.contact-search-option{
+    display: flex;
+    justify-content: center;
+} 
+.contact-search-option input{
+    padding: 18px 200px 15px 30px;
+    border-radius: 5px;
+    border: none;
+} 
